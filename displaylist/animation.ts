@@ -7,7 +7,7 @@ class Ticker {
 
     lastTime;
 
-    /**
+    /** 
      * 启动计时器
      * @param bodyList 物理队列
      */
