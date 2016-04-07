@@ -1,4 +1,4 @@
-/**
+/** 
  * 基类，负责处理x,y,rotation 等属性
  */ 
 class DisplayObject {
