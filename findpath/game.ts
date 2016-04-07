@@ -1,6 +1,6 @@
 module game {
 
-
+ 
     const GRID_PIXEL_WIDTH = 50;
 
     const GRID_PIXEL_HEIGHT = 50;
