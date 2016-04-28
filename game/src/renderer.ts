@@ -111,14 +111,16 @@ module render {
 
     export class Bitmap extends DisplayObject {
 
-
+        
         source;
+        num = 0;
+      
 
         render(context: CanvasRenderingContext2D) {
 
             var image = imagePool[this.source];
             if (image) {
-                context.drawImage(image, 0, 0);
+                context.drawImage(image, 0, 0,this.width,this.height);
             }
             else {
                 context.font = "20px Arial";
@@ -134,6 +136,8 @@ module render {
 
 
         color = '#FF0000';
+        num = 0;
+        
 
         strokeColor = "#000000"
 
