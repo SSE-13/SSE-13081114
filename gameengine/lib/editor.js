@@ -28,7 +28,10 @@ var editor;
             _super.call(this);
         }
         Tile.prototype.setWalkable = function (value) {
-            this.color = value ? "#0000FF" : "#FF0000";
+           // this.color = value ? "#0000FF" : "#FF0000";
+           this.source = value ?"wall3.jpg":"wall4.jpg"
+           console.log("777");
+           this.num = value;
         };
         return Tile;
     }(render.Rect));

@@ -24,7 +24,21 @@ function createMapEditor() {
     return world;
 
 }
-
+var M_button=new Array();
+ function materia(){
+     var materia = new render.DisplayObjectContainer();
+     for(var i=1;i<9;i++){
+        M_button[i] = new ui.Button();
+         M_button[i].text='素材'+i;
+         M_button[i].width = 100;
+         M_button[i].height = 30;
+         M_button[i].color='#cecdcd';
+         M_button[i].y=Math.floor((i-1)/2)*30;
+         M_button[i].x=Math.abs((i%2-1)*100);
+         materia.addChild(M_button[i]);
+     }
+     return materia;
+ }
 
 
 function onTileClick(tile: editor.Tile) {
