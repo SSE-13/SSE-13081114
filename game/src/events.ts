@@ -18,6 +18,8 @@ module events {
 
 
     }
+    
+    
 
 
     export function displayObjectRectHitTest(localPoint: math.Point, displayObject: render.DisplayObject) {

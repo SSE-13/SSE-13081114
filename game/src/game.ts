@@ -17,6 +17,7 @@ module game {
         public grid: astar.Grid;
         
         constructor(mapData) {
+            
             super();
             this.cache = document.createElement("canvas");
             this.cache.width = 400;

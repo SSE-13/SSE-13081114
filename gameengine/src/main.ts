@@ -220,9 +220,9 @@ function onCancelButtonClick() {
 
         invoker.cancel();
 
-        var row = invoker.commands.new_row;
-        var col = invoker.commands.new_col;
-        var num = invoker.commands.new_num;
+        var row = invoker.commands.rows;
+        var col = invoker.commands.cols;
+        var num = invoker.commands.nums;
 
 
         for (var i = 0; i < map_tile.length; i++) {

@@ -14,6 +14,7 @@ module astar {
         visited: Boolean = false;
         inPath: Boolean = false;
         
+        
 
         constructor(x: number, y: number) {
             this.x = x;

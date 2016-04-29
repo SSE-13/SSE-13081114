@@ -33,6 +33,7 @@ function onTileClick(tile: game.Tile) {
      }
 }
 
+
 var mapEditor ;
 var boyShape ;
 var body :game.BoyBody;

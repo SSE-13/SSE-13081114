@@ -20,6 +20,8 @@ module editor {
             this.cache.height = 400;
 
         }
+        
+        
 
 
         render(context: CanvasRenderingContext2D) {

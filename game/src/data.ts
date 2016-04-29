@@ -18,6 +18,7 @@ module data {
        public readFile(callback) { 
            
            
+           
             var state_Change = ()=>{
             if(xmlhttp.readyState == 4){
                 if(xmlhttp.status == 200){               

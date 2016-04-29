@@ -16,6 +16,7 @@ module ui {
 
         public get width(): number {
             return this._width;
+            
         }
 
         public set width(value: number) {
